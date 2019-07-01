@@ -373,6 +373,7 @@
 
     .nameinput, .mailinput, .messageinput{
         width:100%;
+        margin-left: 0;
     }
     .button-form{
         padding: 8px 30px !important;
@@ -436,7 +437,7 @@
         text-align: center;
     } 
     .rowprojects{
-        width: 90%;
+        width: 100%;
     }
 }
 

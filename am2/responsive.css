@@ -9,6 +9,7 @@
     }
     .columnteam{
         flex: 50%;
+        margin-bottom: -50px;
     } 
     .testimonialimg{
         padding: 8px;
@@ -47,6 +48,9 @@
     .formoverlay{
         width:100% !important;
         height:60vw !important;
+    }
+    .row, .rowprojects{
+        width: 80%;
     }
 }
 @media(max-width: 1100px){
@@ -328,9 +332,10 @@
     .columnteam{
         flex: 100%;
         align-items: center;
+        margin-bottom: -50px;
     } 
     .member{
-        height: 90%;
+        height: 80%;
         width: auto;
     }
     .testimonialblock{
@@ -385,6 +390,7 @@
     }
     .infoarea{
         padding: 10px;
+        margin-right: 5px;
     }
     .infotitle{
         font-size: 20px;
@@ -448,10 +454,31 @@
 @media (max-width:420px){
     .formbg{
         width:auto !important;
-        height:160vw !important;
+        height:170vw !important;
         }
         .formoverlay{
         width:100% !important;
-        height:160vw !important;
+        height:170vw !important;
+    }
+
+    .member{
+        height: 70%;
+    }
+
+    .columnteam{
+        flex: 100%;
+        align-items: center;
+        margin-bottom: -100px;
+    } 
+    .slidetext{
+        padding-bottom: 25px;
+        font-size: 10px;
+    }
+    .infofont{
+        font-size: 12px;
+    }
+    .button-form{
+        padding: 5px 25px !important;
+        margin-top: -25px;
     }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "zadatak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d am2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://BojanDzogazovic.github.io/am2_zadatak",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

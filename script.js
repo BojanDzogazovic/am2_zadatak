@@ -12,17 +12,23 @@ let inputFieldsArr = Array.prototype.slice.call(inputNodes);
 let placeholdersNodes = document.querySelectorAll(".placeholdertitle");
 let placeholdersArr = Array.prototype.slice.call(placeholdersNodes);
 
+
+//function
+function closeSideNav(){
+    line1.style.transform = "rotate(0deg)";
+    line2.style.display = "block";
+    line3.style.transform = "rotate(0deg)";
+    line3.style.marginTop = "0px";
+    links.classList.remove("side-nav-active");
+    linksArr.forEach(link => {
+        link.style.animation = "";
+    });
+}
+
 //events
 burger.addEventListener("click", () => {
     if(links.classList.contains("side-nav-active")){
-        line1.style.transform = "rotate(0deg)";
-        line2.style.display = "block";
-        line3.style.transform = "rotate(0deg)";
-        line3.style.marginTop = "0px";
-        links.classList.remove("side-nav-active");
-        linksArr.forEach(link => {
-            link.style.animation = "";
-        });
+        closeSideNav();
     } else {
         line1.style.transform = "rotate(-45deg)";
         line2.style.display = "none";
@@ -37,6 +43,12 @@ burger.addEventListener("click", () => {
         });
     }
 });
+
+window.onscroll = function(e){
+    if(links.classList.contains("side-nav-active")){
+        closeSideNav();
+    }  
+}
 
 
 //form input effect

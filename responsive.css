@@ -87,7 +87,7 @@
         width: 80%;
     }
     .rowprojects{
-        width: 80%;
+        width: 90%;
     }
     .sectionintro{
         margin-left: 15%;
@@ -316,7 +316,7 @@
         width: 100%;
     }
     .rowprojects{
-        width: 100%;
+        width: 80%;
     }
     .rowteam{
         width: 100%;
@@ -435,7 +435,9 @@
         margin-bottom: 20px;
         text-align: center;
     } 
-
+    .rowprojects{
+        width: 90%;
+    }
 }
 
 @media (max-width:420px){

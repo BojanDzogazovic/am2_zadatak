@@ -49,6 +49,7 @@ body {
     padding: 0;
     overflow-x: hidden !important;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .wrapper{
@@ -114,7 +115,7 @@ nav{
 
 .button{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -184,6 +185,10 @@ nav{
    
 }
 
+.landingtitle{
+    font-size: 50px;
+}
+
 .imageHolder img{
     width: 100%;
     height: 100%; 
@@ -229,18 +234,17 @@ nav{
     font-style: normal;
     font-weight: normal;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .sectionintro{
     font-family: 'Montserrat Regular';
     font-style: normal;
-    font-weight: bold;
     color:#858585;
-    font-size: 12px;
-    line-height: 25px;
-    margin-left: 35%;
-    margin-right: 35%;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
 }
 
 
@@ -265,20 +269,18 @@ nav{
 }
 
 .skillsdesc{
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Montserrat Regular';
     font-style: normal;
-    font-weight: bold;
     color: #858585;
-    line-height: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+    line-height: 30px;
 }
 
 .skilltitle{
     font-family: 'Montserrat SemiBold';
     font-style: normal;
     font-weight: normal;
+    font-size: 18px;
 }
 
 .projects{
@@ -323,7 +325,7 @@ nav{
     font-family: 'Montserrat Light';
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -395,6 +397,7 @@ nav{
     font-family: 'Montserrat Medium';
     font-style: normal;
     font-weight: normal;
+    font-size: 20px;
 }
 
 .testimonial{
@@ -433,7 +436,6 @@ nav{
     text-align: center;
     color: #858585;
     line-height: 20px;
-    font-weight: 600;
     position: absolute;
     z-index:999;
     left: 25%;
@@ -449,7 +451,7 @@ nav{
 }
 
 .slidetext{
-    padding-bottom:40px; 
+    padding-bottom:35px; 
 }
 
 .pagination {
@@ -490,9 +492,13 @@ nav{
     text-align: center;
 } 
 
-.microsofthover{
-    height: 36px;
-    width: 169px;
+.partnerimg{
+    filter:grayscale(100%);
+    transition: 0.2s ease-in;
+}
+
+.partnerimg:hover{
+    filter: grayscale(0%);
 }
 
 .blog{
@@ -541,19 +547,21 @@ nav{
     font-family: 'Montserrat Medium';
     font-style: normal;
     font-weight: normal;
+    font-size: 24px;
 }
 
 .blogtext{
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     padding: 0px 5px 5px 15px;
     font-family: 'Montserrat Regular';
     font-style: normal;
     font-weight: normal;
+    line-height: 22px;
 }
 
 .blogtextsmall{
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     padding: 2px;
 }
@@ -603,6 +611,7 @@ nav{
     font-weight: normal;
     margin-top: -15px;
     margin-bottom: 65px;
+    font-size: 36px;
 }
 
 .nameinput, .mailinput, .messageinput{
@@ -644,7 +653,7 @@ nav{
 .placeholdericon{
     height: 18px;
     width: auto;
-    margin: 16px 10px 16px 16px;
+    margin: 23px 5px 0px 16px;
 }
 
 .placeholdertext{
@@ -652,6 +661,7 @@ nav{
     font-family: 'Montserrat Regular';
     font-style: normal;
     font-weight: normal;
+    font-size: 20px;
 }
 
 .infoarea{
@@ -668,6 +678,7 @@ nav{
     font-family: 'Montserrat SemiBold';
     font-style: normal;
     font-weight: normal;
+    font-size: 40px;
 }
 
 .infocolumn{
@@ -691,7 +702,7 @@ nav{
     font-family: 'Montserrat Regular';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .infoicon{
@@ -714,10 +725,11 @@ nav{
     color: #585858;
     margin-top: 100px;
     letter-spacing: 2px;
+    font-size: 50px;
 }
 
 .businessicon{
-    margin: 5px;
+    margin: 10px;
     height: 16px;
     width: auto;
 }

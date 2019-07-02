@@ -40,6 +40,7 @@
     .post{
         flex: 50%;
         margin: 25px 100px;
+        flex-direction: row;
     }
     .formbg{
         width:100% !important;
@@ -51,6 +52,18 @@
     }
     .row, .rowprojects{
         width: 80%;
+    }
+    .postsection{
+        width: 90%;
+    }
+    .blogimg{
+        border-radius: 5px;
+    }
+    .posttextpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: unset;
     }
 }
 @media(max-width: 1100px){
@@ -196,6 +209,9 @@
     }
     #dotsContainer{
         bottom: 15px;
+    }
+    .blogimg{
+        width: 50%;
     }
 }
 
@@ -364,6 +380,7 @@
     .post{
         flex: 100%;
         margin: 15px 0px;
+        flex-direction: column;
     }
     .formtitle{
         margin-top: -115px;
@@ -397,6 +414,9 @@
     }
     .infosection{
         flex-direction: column;
+    }
+    .blogimg{
+        width: 100%;
     }
 }
 

@@ -7,10 +7,17 @@ let line1 = document.querySelector(".line1");
 let line2 = document.querySelector(".line2");
 let line3 = document.querySelector(".line3");
 let partners = document.querySelector(".partners");
-let inputNodes = document.querySelectorAll(".forminput");
+/* let inputNodes = document.querySelectorAll(".forminput");
 let inputFieldsArr = Array.prototype.slice.call(inputNodes);
 let placeholdersNodes = document.querySelectorAll(".placeholdertitle");
-let placeholdersArr = Array.prototype.slice.call(placeholdersNodes);
+let placeholdersArr = Array.prototype.slice.call(placeholdersNodes); */
+let nameInput = document.querySelector(".nameinput");
+let mailInput = document.querySelector(".mailinput");
+let messageInput = document.querySelector(".messageinput");
+let plname = document.getElementById("plname");
+let plemail = document.getElementById("plemail");
+let plmessage = document.getElementById("plmessage");
+
 
 
 //function
@@ -52,7 +59,30 @@ window.onscroll = function(e){
 
 
 //form input effect
-inputFieldsArr.forEach(field => {
+nameInput.addEventListener("focus", ()=>{
+    plname.style.marginBottom = "-25px";
+});
+mailInput.addEventListener("focus", ()=>{
+    plemail.style.marginBottom = "-25px";
+    console.log(123);
+});
+messageInput.addEventListener("focus", ()=>{
+    plmessage.style.marginBottom = "-25px";
+});
+
+
+nameInput.addEventListener("focusout", ()=>{
+    plname.style.marginBottom = "-45px";
+});
+mailInput.addEventListener("focusout", ()=>{
+    plemail.style.marginBottom = "-45px";
+});
+messageInput.addEventListener("focusout", ()=>{
+    plmessage.style.marginBottom = "-45px";
+});
+
+
+/* inputFieldsArr.forEach(field => {
     field.addEventListener("focus", ()=>{
         placeholdersArr.forEach(placeholder => {
             placeholder.style.marginBottom = "-25px";
@@ -64,7 +94,10 @@ inputFieldsArr.forEach(field => {
             placeholder.style.marginBottom = "-45px";
         });
     });
-});
+}); */
+
+
+
 
 
 //slick

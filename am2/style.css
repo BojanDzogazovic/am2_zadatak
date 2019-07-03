@@ -54,14 +54,17 @@ body {
 
 .wrapper{
     position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 nav{
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 1170px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: transparent;
     z-index: 9999;
     align-items: center;
@@ -81,6 +84,7 @@ nav{
     display: flex;
     font-size: 16px;
     margin-top: -25px;
+    padding-right: 10px;
 }
 
 .link{
@@ -192,6 +196,7 @@ nav{
 .imageHolder img{
     width: 100%;
     height: 100%; 
+    object-fit: fill;
 }
 
 #dotsContainer{
@@ -243,14 +248,16 @@ nav{
     color:#858585;
     font-size: 18px;
     line-height: 35px;
-    margin-left: 27.5%;
-    margin-right: 27.5%;
+    width: 600px;
+    margin: auto;
+   /*  margin-left: 27.5%;
+    margin-right: 27.5%; */
 }
 
 
 .row{
     display:flex;
-    width: 70%;
+    width: 1170px;
     margin: auto;
     margin-top: 40px;
 }
@@ -258,7 +265,7 @@ nav{
 .column{
     flex:33%;
     background: white;
-    margin: 20px;
+    margin: 10px;
     padding: 15px;
     transition: 0.5s;
 }
@@ -295,7 +302,7 @@ nav{
 .rowprojects{
     display:flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 1170px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -303,16 +310,17 @@ nav{
 
  .columnproject{
     flex: 25%;
-    margin: 20px;
+    margin: 8px;
     transition: 0.5s;
     padding: 0;
-    height: 250px;
-    width: 300px; 
+  /*   height: 250px;
+    width: 300px;  */
 } 
 
 .project{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .column:hover, .columnproject:hover{
@@ -346,7 +354,7 @@ nav{
 .rowteam{
     display:flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 1170px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -360,13 +368,13 @@ nav{
 } 
 
 .member{
-    height: 250px;
-    width: 85%;
+ /*    height: 250px; */
+    width: 95%;
 }
 
 .teamcontact{
     position:relative;
-    top: -82.5px;
+    top: -87.5px;
     background: rgba(255, 255, 255, 0.5);
     opacity: 0;
     transition: 0.5s ease-in-out;
@@ -485,6 +493,8 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    width: 1170px;
+    margin: auto;
 }
 
 .partner{
@@ -510,7 +520,7 @@ nav{
     padding-bottom: 50px;
 }
 .postsection{
-    width: 70%;
+    width: 1170px;
     margin: auto;
     margin-top: 50px;
     display: flex;
@@ -522,7 +532,7 @@ nav{
 .post{
     flex: 25%;
     box-sizing: border-box;
-    margin: 15px;
+    margin: 10px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -590,7 +600,7 @@ nav{
 
 .contactarea{
     position: absolute;
-    width: 70%;
+    width: 1170px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -601,7 +611,7 @@ nav{
 
 .formarea{
     flex:50%;
-    margin: 15px;
+  /*   margin: 15px; */
 }
 
 .formtitle{
@@ -666,8 +676,8 @@ nav{
 
 .infoarea{
     flex:10%;
-    margin: 5px;
-    margin-right: 30px;
+    margin: 8px;
+   /*  margin-right: 30px; */
     background: #fff;
     border-radius: 5px;
     padding:45px;

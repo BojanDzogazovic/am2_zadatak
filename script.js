@@ -67,7 +67,7 @@ mailInput.addEventListener("focus", ()=>{
     console.log(123);
 });
 messageInput.addEventListener("focus", ()=>{
-    plmessage.style.marginBottom = "-25px";
+    plmessage.style.marginBottom = "0px";
 });
 
 
@@ -78,7 +78,7 @@ mailInput.addEventListener("focusout", ()=>{
     plemail.style.marginBottom = "-45px";
 });
 messageInput.addEventListener("focusout", ()=>{
-    plmessage.style.marginBottom = "-45px";
+    plmessage.style.marginBottom = "-25px";
 });
 
 

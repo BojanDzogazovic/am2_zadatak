@@ -44,6 +44,10 @@
     src: local('Montserrat Bold'), url('Montserrat-Bold.woff') format('woff');
     }
 
+/* *{
+    border: 2px solid red;
+} */
+
 body {
     margin: 0;
     padding: 0;

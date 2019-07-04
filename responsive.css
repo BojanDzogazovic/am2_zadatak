@@ -418,8 +418,8 @@
         width: 100%;
     }
     .testimonialbg{
-        width:100%;
-        height:120vw !important;
+        object-fit: cover;
+        height:65vw !important;
     }
     .overlay{
         height:120vw !important;
@@ -489,12 +489,20 @@
     .landingtitle{
         font-size: 20px;
     }
+    .formbg{
+        width:100% !important;
+        height:115vw !important;
+        }
+        .formoverlay{
+        width:100% !important;
+        height:115vw !important;
+    }
 }
 
 @media (max-width:510px){
     .testimonialbg{
-        width:140%;
-        height:100vw;
+        object-fit: cover;
+        height:75vw !important;
     }
     .overlay{
         height:100vw;
@@ -544,11 +552,11 @@
     }
     .formbg{
         width:auto !important;
-        height:150vw !important;
+        height:140vw !important;
         }
         .formoverlay{
         width:100% !important;
-        height:150vw !important;
+        height:140vw !important;
     }
 }
 
@@ -583,6 +591,18 @@
     .galleryContainer{
         height: 320px;
     }
+    .testimonialbg{
+        object-fit: cover;
+        height:100vw !important;
+    }
+    .formbg{
+        width:auto !important;
+        height:160vw !important;
+        }
+        .formoverlay{
+        width:100% !important;
+        height:160vw !important;
+    }
 }
 
 @media (max-width:365px){
@@ -591,5 +611,13 @@
     }
     .button-learnmore{
         margin-top: 0px;
+    }
+    .formbg{
+        width:auto !important;
+        height:180vw !important;
+        }
+        .formoverlay{
+        width:100% !important;
+        height:180vw !important;
     }
 }

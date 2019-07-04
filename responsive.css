@@ -44,7 +44,7 @@
         width: 88%;
     }
     .partners{
-        width: 90%;
+        width: 80%;
     }
     .contactarea{
         width: 85%;
@@ -548,6 +548,7 @@
     
     .partners{
       flex-direction: column;
+        width: 65%;
     }
 
     .partner{

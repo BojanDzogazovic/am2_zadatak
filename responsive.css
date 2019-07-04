@@ -209,11 +209,11 @@
   
     .formbg{
         width:100% !important;
-        height:80vw !important;
+        height:70vw !important;
         }
         .formoverlay{
         width:100% !important;
-        height:80vw !important;
+        height:70vw !important;
     }
     .infotitle{
         margin: 0;
@@ -224,9 +224,9 @@
     .name_email{
         margin-bottom: 0px;
     }
-    .formtitle{
+  /*   .formtitle{
         margin-top: -45px;
-    }
+    } */
     .galleryContainer{
         height: 70vh;
     }
@@ -299,20 +299,17 @@
     }
     .formbg{
         width:100% !important;
-        height:105vw !important;
+        height:90vw !important;
         }
         .formoverlay{
         width:100% !important;
-        height:105vw !important;
-    }
-    .contactarea{
-        padding-top: 80px;
+        height:90vw !important;
     }
     .infoarea{
-        margin-top: -125px;
+        margin-top: -50px;
     }
     .galleryContainer{
-        height: 65vh;
+        height: 350px;
     }
     .skillsdesc{
         font-size: 11px;
@@ -422,10 +419,10 @@
     }
     .testimonialbg{
         width:100%;
-        height:60vw;
+        height:120vw !important;
     }
     .overlay{
-        height:60vw;
+        height:120vw !important;
     }
     .testimonialblock{
         width: 70%;
@@ -446,8 +443,8 @@
         flex-direction: column;
     }
     .formtitle{
-        margin-top: -115px;
-        font-size: 20px;
+        margin-top: 0px;
+        font-size: 30px;
     }
     .placeholdertext{
         font-size: 14px;
@@ -542,6 +539,14 @@
     .businesstitle{
         font-size: 35px;
     }
+    .formbg{
+        width:auto !important;
+        height:150vw !important;
+        }
+        .formoverlay{
+        width:100% !important;
+        height:150vw !important;
+    }
 }
 
 @media (max-width:420px){
@@ -553,11 +558,9 @@
         width:100% !important;
         height:170vw !important;
     }
-
     .member{
         height: 70%;
     }
-
     .columnteam{
         flex: 100%;
         align-items: center;
@@ -573,5 +576,17 @@
     .button-form{
         padding: 5px 25px !important;
         margin-top: -25px;
+    }
+    .galleryContainer{
+        height: 320px;
+    }
+}
+
+@media (max-width:365px){
+    .galleryContainer{
+        height: 280px;
+    }
+    .button-learnmore{
+        margin-top: 0px;
     }
 }

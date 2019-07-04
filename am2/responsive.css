@@ -231,7 +231,7 @@
         height: 70vh;
     }
     .landingtitle{
-        font-size: 20px;
+        font-size: 35px;
     }
     .landingContainer{
         padding-top: 50px;
@@ -458,7 +458,7 @@
     }
 
     .nameinput, .mailinput, .messageinput{
-        width:100%;
+        width:95%;
         margin-left: 0;
     }
     .button-form{
@@ -485,6 +485,9 @@
     .placeholdertitle{
         margin-bottom: -40px;
         margin-left: -15px;
+    }
+    .landingtitle{
+        font-size: 20px;
     }
 }
 

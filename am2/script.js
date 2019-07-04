@@ -59,7 +59,7 @@ window.onscroll = function(e){
 
 
 //form input effect
-nameInput.addEventListener("focus", ()=>{
+/* nameInput.addEventListener("focus", ()=>{
     plname.style.marginBottom = "-25px";
 });
 mailInput.addEventListener("focus", ()=>{
@@ -79,7 +79,7 @@ mailInput.addEventListener("focusout", ()=>{
 });
 messageInput.addEventListener("focusout", ()=>{
     plmessage.style.marginBottom = "-25px";
-});
+}); */
 
 
 /* inputFieldsArr.forEach(field => {
